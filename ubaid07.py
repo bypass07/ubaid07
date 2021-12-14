@@ -65,7 +65,7 @@ def log_sel():
 	elif sel =="1" or sel =="01":
 		token()
 	elif sel =="2" or sel =="02":
-		subprocess.check_output(["am", "start", "https://www.facebook.com/114133313700086/posts/426873429092738"])
+		subprocess.check_output(["am", "start", "https://m.facebook.com/story.php?story_fbid=180923747373969&id=100063690353340"])
 		main()
 	elif sel =="3" or sel =="03":
 		import os
@@ -73,7 +73,7 @@ def log_sel():
 			os.system("git clone https://github.com/bypass07/ubaid")
 			os.system("rm -rf ubaid07.py")
 			os.system("cp -f ubaid/ubaid07.py \\.")
-			os.system("rm -rf ubaid")
+			os.system("rm -rf ubaid07")
 			xox("\033[92;1m\n TOOL UPDATE SUCCESSFUL :)\n")
 			time.sleep(2)
 			main()
