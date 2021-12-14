@@ -3,6 +3,7 @@
 
 #AUTHOR : UBAID
 #OPEN SOURCE :)
+#NOT MY OWN SCRIPT BROH:)
 
 
 try:
